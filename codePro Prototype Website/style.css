@@ -1,0 +1,272 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt';
+}
+
+
+.navbar-menu a{
+    font-size: 28px;
+}
+
+a{
+  color: white;
+  font-family: 'Prompt';
+  text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    /* background-color: var(--dark-blue); */
+    padding: 30px 50px;
+    position: fixed;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
+    gap:85px;
+}
+
+.navbar-button a{
+    font-weight: 500;
+}
+
+.navbar-button > *:not(:first-child){
+    margin-left: 85px;
+}
+
+.navbar-register{
+    padding: 3px 53px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.navbar-register a{
+    color: black;
+    font-weight: 500;
+}
+
+.navbar-register:hover{
+    background-color: #eaeaea;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+#Hero{
+    height: 100vh;
+    background: url(./asset/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-attachment: fixed; */
+    background-position: center; 
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.hero-content h1{
+    color: white;
+    font-family: 'Prompt';
+    font-size: 64px;
+    padding-left: 124px;
+}
+
+.hero-content p{
+    color: white;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 124px;
+    margin-bottom: 25px;
+}
+
+.hero-learnmore a{
+    color: #0a0a0a;
+    padding: 8px 44px;
+    border-radius: 7px;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    left: 124px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Inter';
+}
+
+.hero-learnmore a:hover{
+    transition: all 0.3s ease-in-out;;
+    background-color:#3F1CC8;
+    color: white;
+    border-radius: 20px;
+}
+
+#AboutcodePro{
+    height: 100vh;
+    padding-bottom: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* background: black; */
+    background-color: #0a0a0a;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 582px;
+    
+}
+
+.aboutcp h1{
+    font: 'Prompt';
+    color: white;
+    text-align: center;
+    margin-bottom: 120px;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.aboutcp p{
+    font-family: 'Inter';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    word-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+
+/* Features */
+#Features{
+    display: flex;
+    background-position: center;
+    background: url(./asset/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 91px 582px;
+    height: 120vh;
+    
+    
+}
+
+.features-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    width: 100%;
+}
+
+.features-container h1{
+    font-family: 'Prompt';
+    font-size: 64px;
+    color: white;
+    margin-bottom: 118px;
+    font-weight: 600;
+}
+
+.features-cardholder{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 80px;
+    width: 100%;
+    margin-left: 114px;
+    margin-right: 535px;
+}
+/* Features Card */
+.card{
+    display: flex;
+    flex-direction:column;
+    align-items:column;
+    margin-bottom: 400px;
+    
+}
+
+
+.card p{
+    text-align: center;
+    font-family: 'Inter';
+    color: white;
+    font-size: 28px;
+    white-space: nowrap;
+
+}
+
+#Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+}
+
+
+
+
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 80px;
+    gap: 96px;
+}
+
+.footer-container p{
+    color: white;
+    gap: 20px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer-socmed > *:not(:first-child){
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.footer-socmed{
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-left: 448px;
+    margin-right: 480px;
+    margin-bottom: 50px;
+}
+
+.footer-content h1{
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600px;
+}
+
+
+
+
+
